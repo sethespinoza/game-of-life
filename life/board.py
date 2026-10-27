@@ -19,4 +19,3 @@ def random_state(width, height):
             if random.random() >= 0.5:
                 board[row][col] = ALIVE
     return board
-
